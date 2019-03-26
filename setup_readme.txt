@@ -5,10 +5,12 @@ ShadowsocksR 服务端安装教程 说明 不建议使用一键脚本安装，�
 基本库安装 以下命令均以root用户执行，或sudo方式执行
 
 centos：
+yum install git 
 
-yum install git ubuntu/debian：
+ubuntu/debian：
+apt-get install git 
 
-apt-get install git 获取源代码 git clone -b manyuser https://github.com/shadowsocksr-backup/shadowsocksr.git
+获取源代码 git clone -b manyuser https://github.com/shadowsocksr-backup/shadowsocksr.git
 
 执行完毕后此目录会新建一个shadowsocksr目录，其中根目录的是多用户版（即数据库版，个人用户请忽略这个），子目录中的是单用户版(即shadowsocksr/shadowsocks)。
 
